@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
+    <!-- Header -->
     <header class="header">
       <div class="header__conteiner conteiner">
         <nav class="nav">
@@ -53,6 +54,50 @@
             >
           </li>
         </ul>
+        <!-- Tel menu -->
+<div class="top-tel-menu">
+  <a href="" class="logo tel-logo">Web<span class="logo__span">Studio</span> </a>
+  <button class="tel-menu-open" type="button">
+    <svg width="40px" height="40px">
+      <use href="./images/icons.svg#tel-menu"></use>
+    </svg>
+  </button>
+</div>
+<div class="tel-menu is-hidden">
+  <button class="tel-menu-close" type="button">
+    <svg width="40px" height="40px">
+      <use href="./images/icons.svg#close-tel-menu"></use>
+    </svg>
+  </button>
+  <ul class="tel-site-nav list">
+    <li class="tel-site-nav__item">
+      <a class="tel-site-nav__link link" href="./index.html">Студия</a>
+    </li>
+    <li class="tel-site-nav__item">
+      <a class="tel-site-nav__link link current" href="./portfolio.html">Портфолио</a>
+    </li>
+    <li class="tel-site-nav__item">
+      <a class="tel-site-nav__link link" href="">Контакты</a>
+    </li>
+  </ul>
+  <div>
+    <ul class="tel-auth-nav list">
+      <li class="tel-auth-nav__item">
+        <a class="tel-auth__link link" href="tel:+380961111111"> +38 096 111 11 11</a>
+      </li>
+      <li class="tel-auth-nav__item">
+        <a class="tel-auth-mail__link link" href="meilto:info@devstudio.com">
+          info@devstudio.com</a
+        >
+      </li>
+    </ul>
+    <ul class="tel-soc-menu list">
+      <li class="tel-soc-item"><a class="tel-soc-link link" href="">Instagram</a></li>
+      <li class="tel-soc-item"><a class="tel-soc-link link" href="">Twitter</a></li>
+      <li class="tel-soc-item"><a class="tel-soc-link link" href="">Facebook</a></li>
+      <li class="tel-soc-item"><a class="tel-soc-link link" href="">LinkedIn</a></li>
+    </ul>
+  </div>
       </div>
     </header>
     <main>
@@ -71,6 +116,10 @@
               <a href="" class="link card-activ">
                 <div class="card">
                   <img
+                    srcset="
+                      ./images/img-portfolio/img-1.jpg    1x,
+                      ./images/img-portfolio/img-1-2x.jpg 2x
+                    "
                     class="img"
                     src="./images/img-portfolio/img-1.jpg"
                     alt="Ноутбук"
@@ -92,6 +141,10 @@
               <a href="" class="link card-activ">
                 <div class="card">
                   <img
+                    srcset="
+                      ./images/img-portfolio/img2.jpg    1x,
+                      ./images/img-portfolio/img2-2x.jpg 2x
+                    "
                     class="img"
                     src="./images/img-portfolio/img2.jpg"
                     alt="Ига в баскетбол"
@@ -113,6 +166,10 @@
               <a href="" class="link card-activ">
                 <div class="card">
                   <img
+                    srcset="
+                      ./images/img-portfolio/img3.jpg    1x,
+                      ./images/img-portfolio/img3-2x.jpg 2x
+                    "
                     class="img"
                     src="./images/img-portfolio/img3.jpg"
                     alt="Логотип ресторана"
@@ -134,6 +191,10 @@
               <a href="" class="link card-activ">
                 <div class="card">
                   <img
+                    srcset="
+                      ./images/img-portfolio/img4.jpg    1x,
+                      ./images/img-portfolio/img4-2x.jpg 2x
+                    "
                     class="img"
                     src="./images/img-portfolio/img4.jpg"
                     alt="Наушники"
@@ -155,6 +216,10 @@
               <a href="" class="link card-activ">
                 <div class="card">
                   <img
+                    srcset="
+                      ./images/img-portfolio/img5.jpg    1x,
+                      ./images/img-portfolio/img5-2x.jpg 2x
+                    "
                     class="img"
                     src="./images/img-portfolio/img5.jpg"
                     alt="Коробочки"
@@ -176,6 +241,10 @@
               <a href="" class="link card-activ">
                 <div class="card">
                   <img
+                    srcset="
+                      ./images/img-portfolio/img6.jpg    1x,
+                      ./images/img-portfolio/img6-2x.jpg 2x
+                    "
                     class="img"
                     src="./images/img-portfolio/img6.jpg"
                     alt="Монитор"
@@ -196,7 +265,16 @@
             <li class="item">
               <a href="" class="link card-activ">
                 <div class="card">
-                  <img class="img" src="./images/img-portfolio/img7.jpg" alt="Журнал" width="370" />
+                  <img
+                    srcset="
+                      ./images/img-portfolio/img7.jpg    1x,
+                      ./images/img-portfolio/img7-2x.jpg 2x
+                    "
+                    class="img"
+                    src="./images/img-portfolio/img7.jpg"
+                    alt="Журнал"
+                    width="370"
+                  />
                   <p class="gallery-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -212,7 +290,16 @@
             <li class="item">
               <a href="" class="link card-activ">
                 <div class="card">
-                  <img class="img" src="./images/img-portfolio/img8.jpg" alt="Бирка" width="370" />
+                  <img
+                    srcset="
+                      ./images/img-portfolio/img8.jpg    1x,
+                      ./images/img-portfolio/img8-2x.jpg 2x
+                    "
+                    class="img"
+                    src="./images/img-portfolio/img8.jpg"
+                    alt="Бирка"
+                    width="370"
+                  />
                   <p class="gallery-text">
                     Ресурс предлагает комплексные предложения с разным уровнем функционала и
                     сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании
@@ -229,6 +316,10 @@
               <a href="" class="link card-activ">
                 <div class="card">
                   <img
+                    srcset="
+                      ./images/img-portfolio/img9.jpg    1x,
+                      ./images/img-portfolio/img9-2x.jpg 2x
+                    "
                     class="img"
                     src="./images/img-portfolio/img9.jpg"
                     alt="Робочий ноутбук"
@@ -255,7 +346,7 @@
         <div>
           <a class="logo" href="">Web<span class="logo-span-footer">Studio</span> </a>
           <address>
-            <ul class="list">
+            <ul class="footer__list list">
               <li class="item">
                 <a class="address link" href="https://goo.gl/maps/Ab3YuVsqcitRHV3f8">
                   г. Киев, пр-т Леси Украинки, 26</a
@@ -271,7 +362,7 @@
           </address>
         </div>
         <div class="footer-media">
-          <h2 class="footer-title">присоединяйтесь</h2>
+          <p class="footer-title">присоединяйтесь</p>
           <ul class="social-media list">
             <li class="social-media__item">
               <a class="social-media__link social-media__link--footer" href="">
@@ -303,7 +394,7 @@
             </li>
           </ul>
         </div>
-        <!-- Form footer -->
+        <!--Form footer-->
         <form class="form-footer">
           <p class="footer-title">Подпишитесь на рассылку</p>
           <div class="form-footer-wrap">
@@ -318,5 +409,6 @@
         </form>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

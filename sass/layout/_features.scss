@@ -1,7 +1,16 @@
 .features {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
+  }
+
   &__title {
+    @media screen and (max-width: 767px) {
+      text-align: center;
+    }
     margin-bottom: 10px;
-    text-align: center;
 
     color: var(--title-text-color);
 
@@ -26,11 +35,19 @@
   }
 
   &__item {
-    width: 450px;
-    margin-bottom: 30px;
+    @media screen and (min-width: 768px) {
+      margin-bottom: 30px;
+      margin-right: 30px;
+    }
   }
 
-  &__item:not(:last-child) {
-    margin-right: 30px;
+  &__item {
+    width: 100%;
+    @media screen and (min-width: 768px) {
+      width: 354px;
+    }
+    @media screen and (min-width: 1200px) {
+      width: 270px;
+    }
   }
 }
