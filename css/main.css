@@ -374,6 +374,10 @@ p {
   color: var(--accent-color);
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .hero {
   background-color: #c4c4c4;
   text-align: center;
